@@ -1,0 +1,261 @@
+#navBar{
+    top:0;
+    left:0;
+    right: 0;
+    display: flex;
+    align-items: center;  
+    border-image: linear-gradient(rgb(255, 168, 168),transparent) 30;
+    border-width: 25px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style:solid;
+    background-color: white;
+}
+
+#deliveryBar{
+    background-color: white;
+    right: 0;
+    left: 0;
+}
+
+.kfcLogo{
+    width: 150px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+#listItensDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    grid-column-gap: 0;
+}
+
+.listItens{
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+
+#prfDiv{
+    width: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    font-family: 'Work Sans', sans-serif;
+    color: #808080;
+    font-size: 16px;
+    width: 62%;
+}
+
+#prfImg{
+    width:43px;
+}
+
+#deliveryBar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    justify-content: center;
+}
+
+#title{
+    font-family: 'Oswald';
+    font-size: 34px;
+}
+
+#sub{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+#rightContent{
+    display: grid;
+    justify-content: center;
+}
+
+#deliveryBtn{
+    background-color: rgba(228,0,43,1);
+    border-style: none;
+    color: white;
+    border-radius:30px;
+    font-family: 'Oswald';
+    font-size: 18px;
+    height: 40px;
+    width: 500px;
+}
+
+#formDiv{
+    font-family: 'Work Sans', sans-serif;
+    align-items: center;
+}
+
+#gallery{
+   display: flex;
+}
+
+.imgsGallery{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    
+}
+
+.changeImageBtn{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border-style: none;
+    position: relative;
+    left: 50%;
+}
+
+#changeImg1{
+    background-color: rgba(228,0,43,1);
+}
+
+#changeImg2{
+    background-color: #e3e3e3;
+}
+
+#formImg{
+    width: 20px;
+}
+
+#formInput{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    width: 395px;
+    height: 23px;
+}
+
+#locationInput{
+    display: flex;
+    border-radius: 2px;
+    box-shadow: 0 0 10px -10px #bdbdbd;
+    align-items: center;
+}
+
+#formLocation{
+    background-color: rgba(228,0,43,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    width: 60px;
+    height: 40px;
+}
+
+#formMap{
+    background-color: white;
+    border-color: red;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+#menu1{
+    position: static;
+    margin-left: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    margin-left: 8%;
+    margin-top: 22%;
+}
+
+#menu2{
+    position: static;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    margin-left: 8%;
+}
+
+#menuImgsDiv{
+    display: grid;
+    width: 800px;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menuImgs{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.menuImgs2{
+    width: 250px;
+    box-shadow: 5px 5px 5px #e6e6e6;
+    padding: 20px;
+}
+
+.divImgs{
+    display: grid;
+    grid-template-rows: repeat(3);
+    justify-content: center;
+    box-shadow: 5px 5px 5px #e6e6e6;
+    margin-bottom: 15%;
+}
+
+.buyBtn{
+    position: relative;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(228,0,43,1);
+    border-style: none;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marketCarSvg{
+    width: 30px;
+}
+
+#menuImgsDiv2{
+    display: grid;
+    width: 1090px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    text-align: center;
+}
+
+#footerBar{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(32,33,36,1);
+    display: grid;
+    position: absolute;
+    left: 0;
+    margin-top: 3%;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#footerBar h1{
+    color: white;
+    font-size: 14px;
+}
+
+#footerBar sub{
+    color: white;
+    font-size: 13px;
+}
+
+#customerService{
+    display: grid;
+    grid-template-rows: repeat(2,0.25fr);
+}
+
+#about{
+    display: grid;
+    grid-template-rows: repeat(2,0.25fr);
+}
+
+#footerBar div{
+    margin-top: 15px;
+}

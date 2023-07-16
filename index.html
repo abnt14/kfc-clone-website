@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KFC Brasil</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <nav>
+            <div id="navBar">
+                <img class="kfcLogo"src="imgs/logo.svg">
+                
+                <div id="listItensDiv">
+                    <strong><span id="link1" class="listItens">CARDÁPIO</span></strong>
+                    <strong><span id="link2" class="listItens">KFC MAIS PRÓXIMO</span></strong>
+                </div>
+
+                <div id="prfDiv">
+                    <img id="prfImg"src="imgs/profile.png">
+                    <a>Entrar</a>
+                </div>
+            </div>
+            <div id="deliveryBar">
+                <article id="leftArticle">
+                    <h1 id="title">COMO VOCÊ GOSTARIA DE PEDIR <br>HOJE?</h1>
+                    <h2 id="sub">Entrega e retirada agora disponíveis</h2>
+                </article>
+
+                <div id="rightContent">
+                    <button id="deliveryBtn">DELIVERY</button>
+                    <div id="formDiv">
+                        <span>Digite seu endereço</span>
+                        <div id="locationInput">
+                            <img id="formImg" src="imgs/mgfglass.png">
+                            <input type="text" id="formInput" value="Digite a sua localização">
+                            <button id="formLocation"><img src="imgs/location.png"></button>
+                            <button id="formMap"><img src="imgs/map.png"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </head>
+    <body>
+        <div id="galleryDiv">
+            <div id="gallery">
+                <img id="img2" class="imgsGallery" src="imgs/02.jpeg">
+                <img id="img1" class="imgsGallery" src="imgs/01.jpeg">
+            </div>
+            <button onclick="carouselRight()" class="changeImageBtn" id="changeImg1"></button>
+            <button onclick="carouselLeft()" class="changeImageBtn" id="changeImg2"></button>
+        </div>
+        <div id="menu1">
+            <h1>FAVORITOS DO KFC</h1>
+            <sub>3 items</sub>
+            <div id="menuImgsDiv">
+                <div class="divImgs"><img class="menuImgs" src="imgs/Content.jpeg"><h3>2 DOUBLE CRUNCH +2 BATATAS + 2 COCA</h3><sub>RS59.90</sub><button class="buyBtn"><img class="marketCarSvg"src="imgs/marketCar.png"></button></div>
+                <div class="divImgs"><img class="menuImgs" src="imgs/Content2.jpeg"><h3>2  SANDUICHES PREMIUM + 2 BATATAS + 2 REFRI LATA</h3><sub>R$82.90</sub><button class="buyBtn"><img class="marketCarSvg"src="imgs/marketCar.png"></button></div>
+                <div class="divImgs"><img class="menuImgs" src="imgs/Content3.jpeg"><h3>BALDE 12 VARIADOS CROCANTE</h3><sub>R$69.90</sub><button class="buyBtn"><img class="marketCarSvg"src="imgs/marketCar.png"></button></div>
+            </div>
+        </div>
+        <div id="menu2">
+            <h1>EXPLORE NOSSO CARDÁPIO</h1>
+            <div id="menuImgsDiv2">
+                <div><img class="menuImgs2" src="imgs/Content4.jpeg"><h3>PROMOÇÕES</h3></div>
+                <div><img class="menuImgs2" src="imgs/Content5.jpeg"><h3>BALDES</h3></div>
+                <div><img class="menuImgs2" src="imgs/Content6.jpeg"><h3>BOXES</h3></div>
+                <div><img class="menuImgs2" src="imgs/Content7.jpeg"><h3>COMBOS</h3></div>
+                <div><img class="menuImgs2" src="imgs/Content8.jpeg"><h3>SUNDUÍCHES INDIVIDUAIS</h3></div>
+                <div><img class="menuImgs2" src="imgs/allCategories.png"><h3>NAVEGAR NAS CATEGORIAS</h3></div>
+            </div>
+        </div>
+    </body>
+    <footer id="footerBar">
+        <img class="kfcLogo" src="imgs/logo.svg">
+        <div>
+            <h1 class>CARDÁPIO</h1>
+            <sub>Cardapio</sub>
+        </div>
+        <div id="about">
+            <h1>SOBRE NÓS</h1>
+            <sub>Nossa História</sub>
+            <sub>Seja um Franqueado</sub>
+        </div>
+        <div id="customerService">
+            <h1>ATENDIMENTO AO CLIENTE</h1>
+            <sub>Fale Conosco</sub>
+            <sub>KFC mais Próximo</sub>
+        </div>
+        <div>
+            <h1>TERMOS</h1>
+            <sub>Política de Privacidade</sub>
+        </div>
+    </footer>
+</html>
